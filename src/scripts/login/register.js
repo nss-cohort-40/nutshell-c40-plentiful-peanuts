@@ -1,3 +1,4 @@
-// needs input for email and password
-// needs to save email and password inputed by user into session storage
-// 
+// needs to render a register form on the DOM
+// needs an input for email
+// needs an input for password
+
