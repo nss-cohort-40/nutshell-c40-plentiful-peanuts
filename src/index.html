@@ -11,13 +11,14 @@
 
 <body>
     <article id="container"></article>
-    <script type="module" src="./scripts/main.js"></script>
     <!-- needs elements to put the news, messages, tasks, and friends via import from other modules -->
+    <div class="newsList">
 
+    </div>
     <!-- News input textarea by Wes -->
-    <label for="newsEntry">Got News?</label>
-    <fieldset class="newsEntry">
-        <textarea name="newsEntry" id="newsEntry" cols="30" rows="5"></textarea>
+    <label for="news">Got News?</label>
+    <fieldset class="news">
+        <textarea name="news" id="news" cols="30" rows="5"></textarea>
         <button classt="btn" id="news__button">Add News <Article></Article></button>
     </fieldset>
 
@@ -30,6 +31,7 @@
 
 
 
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>

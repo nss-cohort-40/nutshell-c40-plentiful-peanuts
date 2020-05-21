@@ -4,16 +4,14 @@
 
 
 
-import "scripts/DOM-Entries.js"
-import "scripts/data.js"
+import "scripts/DOM-news.js"
+import "scripts/newsData.js"
 import "scripts/newsComponent.js"
 
-const renderNewsEntries = (entries) => {
 
-}
 
 // Invoke the render function
-renderNewsEntries(newsEntries)
+renderNews(news)
 
 
 
