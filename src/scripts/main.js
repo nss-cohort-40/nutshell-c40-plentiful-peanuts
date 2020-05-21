@@ -18,13 +18,14 @@ submitButton.addEventListener("click", (event) => {
 
         if (foundUser) {
             sessionStorage.setItem("activeUser", foundUser.id)
-            console.log(`"Welcome, ${foundUser.username}"`)
+            window.alert(`"Welcome, ${foundUser.username}"`)
+           // location.replace("https://www.google.com")
         }
         else {
             window.alert("WRONG CREDENTIALS, FOOL")
         }
 
-        sessionStorage.removeItem("activeUser", foundUser.id)
+        //sessionStorage.removeItem("activeUser", foundUser.id)
     })
 
 
@@ -33,9 +34,6 @@ submitButton.addEventListener("click", (event) => {
 
     }
 
-    function redirectPage(){
-        location.replace("https://www.google.com")
-    }
 })
 
 
