@@ -18,7 +18,7 @@ export default {
         })
     },
 
-    document.getElementById("news_button").addEventListener("click")
+    news.getElementById("news_button").addEventListener("click")
     // document.getElementById("myBtn").addEventListener("click", displayDate);
 }
 
