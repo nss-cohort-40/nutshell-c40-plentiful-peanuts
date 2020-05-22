@@ -1,10 +1,11 @@
 const makeMessageComponent = (message) => {
     return `
-        <section class="message--${message.id}">
+        <section class="messages--${message.messageId}">
         ${message.message}
-        <button id="submitMessage--${message.id}">
-        Submit Message
-        </button>
+        <div class="message--${message.messageId}">
+        </div>
         </section> 
     `
 }
+
+export default makeMessageComponent

@@ -1,13 +1,11 @@
-import makeMessageComponent from "./messages/messageComponent.js"
+import makeMessageComponent from "./messageComponent.js"
 
 const renderMessages = (messages) => {
-    const messageContainer = document.querySelector(".container")
-    messageContainer.innerHTML = ""
-
-    for(let i = 0; i < messages.length; i++){
-        const message = messages[i]
-        messageContainer.innerHTML += makeMessageComponent(message)
+    for (let i = 0; i < messages.length; i++) {
+        const messageContainer = document.querySelector(".messages");
+        const message = messages[i];
+        messageContainer.innerHTML += makeMessageComponent(message);
     }
-}
-
+};
+ 
 export default renderMessages
