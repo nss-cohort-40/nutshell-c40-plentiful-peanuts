@@ -4,6 +4,7 @@
 const makeNewsComponent = (news) => {
   // Create HTML structure for a news component
   return `
+  <section class="article--${news.newsId}">
           <div class="news_title">
             <h2 class="title">Title: ${news.title}</h2>
 
@@ -12,7 +13,8 @@ const makeNewsComponent = (news) => {
 
           <p class="url">
             <label class="news_url">URL:</label> ${news.url}</p>
-          
+
+           </section>
         `;
 };
 // export the news component
