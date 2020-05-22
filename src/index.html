@@ -21,7 +21,7 @@
         <button class="submit">Login</button>
     </form>
     <form class="logout-form" id="logout-form">
-        
+
     </form>
     <article id="container"></article>
     <!-- needs elements to put the news, messages, tasks, and friends via import from other modules -->
@@ -29,11 +29,17 @@
 
     </div>
     <!-- News input textarea by Wes -->
-    <label for="news">Got News?</label>
+    <legend for="news">Got News?</legend>
     <fieldset class="news">
-        <textarea name="news" id="news" cols="30" rows="5"></textarea>
+        <input name="news_title" id="news_title" placeholder="Title"></input>
+        <br></br>
+        <textarea name="news" id="news_synopsis" placeholder="Synopsis"></textarea>
+        <br></br>
+        <input name="news_url" id="news_url" placeholder="URL"></input>
+        <br></br>
         <button classt="btn" id="news__button">Add News <Article></Article></button>
     </fieldset>
+
 
     <!-- <div class="news">
         <h2>News</h2>

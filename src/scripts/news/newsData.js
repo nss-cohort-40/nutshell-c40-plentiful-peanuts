@@ -16,6 +16,9 @@ export default {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(savedNews)
         })
-    }
+    },
+
+    document.getElementById("news_button").addEventListener("click")
+    // document.getElementById("myBtn").addEventListener("click", displayDate);
 }
 
