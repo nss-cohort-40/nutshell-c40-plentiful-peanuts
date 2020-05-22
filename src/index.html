@@ -23,14 +23,14 @@
     <form class="logout-form" id="logout-form">
 
     </form>
-    <article id="container"></article>
-    <!-- needs elements to put the news, messages, tasks, and friends via import from other modules -->
-    <div class="newsList">
+     <!-- needs elements to put the news, messages, tasks, and friends via import from other modules -->
+     <div class="newsList">
 
     </div>
     <!-- News input textarea by Wes -->
     <legend for="news">Got News?</legend>
     <fieldset class="news">
+<<<<<<< HEAD
         <input name="news_title" id="news_title" placeholder="Title"></input>
         <br></br>
         <textarea name="news" id="news_synopsis" placeholder="Synopsis"></textarea>
@@ -38,6 +38,10 @@
         <input name="news_url" id="news_url" placeholder="URL"></input>
         <br></br>
         <button classt="btn" id="news__button">Add News <Article></Article></button>
+=======
+        <textarea name="news" id="news" cols="30" rows="5"></textarea><br>
+        <button class="btn" id="news__button">Add News <Article></Article></button>
+>>>>>>> master
     </fieldset>
 
 
@@ -48,7 +52,17 @@
         <button classt="btn" id="news__button">Add <Article></Article></button>
     </div> -->
 
+    <div class="messages">
+        <label for="messages">
+           Messages
+        </label>
+        <fieldset>
+            <textarea name="messageTextArea" id="" cols="30" rows="10"></textarea><br>
+            <button class="submitMessage" id="submitMessage">Submit Message </button>
+        </fieldset>
+    </div>
 
+    <article id="container"></article>
 
     <script type="module" src="./scripts/main.js"></script>
 </body>
